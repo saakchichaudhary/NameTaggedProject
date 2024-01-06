@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Sofia|Trirong">
+    <link rel="stylesheet" href="nametag.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+    padding-top: 5em;
+    display: flex;
+    justify-content: center;
+  }
+  .typewriter h1 {
+    font-size: 150px;
+    color: #bd0808;
+    font-family: "Sofia", sans-serif;
+    overflow: hidden; 
+    font-style: italic;
+    border-right: .15em solid linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+    letter-spacing: .15em;  
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret .5s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: black }
+  }
+</style>
+<body>
+    <div class="typewriter">
+        <h1>"Tanu"</h1>
+      </div>
+</body>
+</html>
